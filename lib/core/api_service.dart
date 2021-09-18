@@ -34,7 +34,6 @@ class ApiService {
     );
     if (response.statusCode == 201) {
       final responseStrimg = response.body;
-
       return json.encode(responseStrimg);
     }
   }
